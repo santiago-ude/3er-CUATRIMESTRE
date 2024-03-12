@@ -17,7 +17,7 @@ public class Main {
         int num2 = scanner.nextInt();
 
 
-        System.out.println("|1 SUMAR|2 RESTAR|3 MULTIPLICAR|4 DIVIDIR|");
+        System.out.println("|1 SUMAR|\n|2 RESTAR|\n|3 MULTIPLICAR|\n|4 DIVIDIR|");
         System.out.println("Ingrese opcion: ");
         int eleccion =  scanner.nextInt();
 
@@ -68,11 +68,7 @@ public class Main {
 
                 }
 
-
                 break;
-
-
-
         }
 
 

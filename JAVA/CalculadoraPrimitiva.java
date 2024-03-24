@@ -1,9 +1,19 @@
+
 import java.util.Scanner;
 public class Main {
 
 
 
     public static void main(String[] args) {
+
+        int valor = 1;
+
+
+        while(valor == 1){
+
+
+
+
 
         System.out.println("Ingresa 2 numeros");
 
@@ -36,8 +46,8 @@ public class Main {
                 if(num1 >= num2){
 
                     result = num1 - num2;
-                  System.out.print("Resultado: ");
-                  System.out.print(result);
+                    System.out.print("Resultado: ");
+                    System.out.print(result);
 
                 } else{
 
@@ -47,7 +57,7 @@ public class Main {
 
             case 3:
 
-                    result = num1*num2;
+                result = num1*num2;
                 System.out.print("Resultado: ");
                 System.out.print(result);
 
@@ -71,6 +81,12 @@ public class Main {
                 break;
         }
 
+        System.out.println("\n|1 seguir haciendo operaciones|\n|2 dejar de hacer operaciones|\n");
+        valor = scanner.nextInt();
+
+
+
+        }
 
     }
 }
